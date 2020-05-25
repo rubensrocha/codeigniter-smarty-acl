@@ -42,8 +42,10 @@ SmartyACL is a library with basic authentication and authorization functions for
 1. Download latest released version
 2. Put SmartyAcl folder on `application/third_party` directory
 3. Add to `$autoload['packages']`¹ in `application/config/autoload.php`
-```$autoload['packages'] = array(APPPATH.'third_party/SmartyAcl');```
-4. Import DB tables using migrations or database.sql file
+    ```
+    $autoload['packages'] = array(APPPATH.'third_party/SmartyAcl');
+    ```
+4. Import DB tables using migration or database.sql file
 5. Config library preferences on `application/third_party/SmartyAcl/config/smarty_acl.php`
 
 ¹ Alternatively, you can copy the contents of the SmartyAcl folder to the respective directories in the application folder and load the library directly into the controller using `$this->load->library('smarty_acl');`
