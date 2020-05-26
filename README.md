@@ -27,6 +27,7 @@ SmartyACL is a library with basic authentication and authorization functions for
   
 ### Summary
 - [Requirements](#requirements)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Default Login](#default-login)
 - [Usage](#usage)
@@ -37,7 +38,10 @@ SmartyACL is a library with basic authentication and authorization functions for
 ### Requirements
 - Codeigniter 3 (developed on 3.1.11)
 - PHP 7.x (developed on 7.3)
-  
+
+### Demo
+Download a demo application [here](https://github.com/rubensrocha/codeigniter-smarty-acl-demo)  
+
 ### Installation
 1. Download latest released version
 2. Put SmartyAcl folder on `application/third_party` directory
