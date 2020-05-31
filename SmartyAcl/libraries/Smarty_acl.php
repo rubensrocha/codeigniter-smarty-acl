@@ -221,7 +221,10 @@ class Smarty_acl
         if ($this->CI->email->send() === TRUE) {
             return TRUE;
         }
-        $this->set_error($this->CI->email->print_debugger(array('headers', 'subject', 'body')));
+        //Log errors
+        log_message('ERROR','SmartyAcl Send Mail: '.$this->CI->email->print_debugger(array('headers', 'subject', 'body')));
+        //Set error message
+        $this->set_error('error_admin_unable_send_mail');
         return FALSE;
     }
 

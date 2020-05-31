@@ -16,6 +16,7 @@ $lang['error_loggedin_role_id_not_found'] = 'User Role ID not found';
 $lang['error_updating_user_account'] = 'Unable to update user account data';
 $lang['error_user_delete_yourself'] = 'You can not delete your own account';
 $lang['error_admin_delete_superadmin'] = 'You are not authorized to delete this type of user.';
+$lang['error_admin_unable_send_mail'] = 'Unable to send mail! Check logs for more info.';
 
 // Register
 $lang['register_identity_unavailable'] = 'Identity already used or invalid';
