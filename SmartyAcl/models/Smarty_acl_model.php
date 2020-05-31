@@ -1195,7 +1195,7 @@ class Smarty_acl_model extends CI_Model
             $_output = [];
             foreach ($values as $value)
             {
-                $errorLang = $this->lang->line($value) ?? '##' . $value . '##';
+                $errorLang = $this->lang->line($value) ? $this->lang->line($value) : '##' . $value . '##';
                 $_output[] = $this->message_start_delimiter . $errorLang . $this->message_end_delimiter;
             }
             if(count($_output) >= 2){
