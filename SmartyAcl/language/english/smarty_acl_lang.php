@@ -61,10 +61,10 @@ $lang['login_error_email_unverified'] = 'Before proceeding, please check your em
 //Roles
 $lang['roles_error_unable_create'] = 'Unable to create new Role';
 $lang['roles_error_unable_update'] = 'Unable to update Role';
-$lang['roles_error_unable_delete'] = 'Unable to update Role';
+$lang['roles_error_unable_delete'] = 'Unable to delete Role';
 $lang['roles_error_notallowed_delete'] = 'Can\'t delete the administrators\' group';
 
 //Modules
 $lang['modules_error_unable_create'] = 'Unable to create new Module';
 $lang['modules_error_unable_update'] = 'Unable to update Module';
-$lang['modules_error_unable_delete'] = 'Unable to update Module';
+$lang['modules_error_unable_delete'] = 'Unable to delete Module';
