@@ -1,0 +1,19 @@
+{
+    "name": "rubensrocha/codeigniter-smarty-acl",
+    "description": "Lightweight Auth System with ACL for CodeIgniter 3",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RubensRocha\\CodeigniterSmartyAcl\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rubens Rocha",
+            "email": " "
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
